@@ -1,0 +1,17 @@
+{
+  "name": "geekcrafttechnologiesltd",
+  "version": "1.0.0",
+  "description": "Geek-craft-template",
+  "license": "MIT",
+  "author": "GeekyThankGod",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": " sass --no-source-map src:css",
+    "watch": " sass --no-source-map --watch src:css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.101.0"
+  }
+}
